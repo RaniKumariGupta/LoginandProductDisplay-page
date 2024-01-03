@@ -1,0 +1,60 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.product-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* Styles for Card component */
+
+  .product-list{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .card {
+    width: 23%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    height: 30rem;
+    text-align: center;
+    display: inline-block; 
+    box-sizing: border-box; 
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 14rem;
+  }
+  .card h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  } 
+  .card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 48%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 98%;
+      margin: 1%; 
+    }
+  }
+  
